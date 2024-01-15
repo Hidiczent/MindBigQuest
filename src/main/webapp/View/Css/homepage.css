@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+width: 100%;
+height: 100vh;
+background-image:url(https://i.pinimg.com/originals/04/63/b9/0463b94db6f1e49e08d14e2b6e7362c1.gif);
+background-size: cover;
+background-position: center;
+}
+.Logo{
+    position: relative;
+    width: 5%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    left: 30px;
+    border-radius: 10px ;
+}
+.search_box{
+    padding: 60px;
+	overflow: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.search_box input[type=search] {
+    border: 0px;
+	width: 50%;
+	padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    top: 26px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    padding-inline-start: 30px;
+  }
+  .search input[type="seacrh"]:focus
+{
+	outline: 0;
+}
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+	.search
+	{
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+ .search_box  #btn{
+    border: 0px;
+	background: none;
+	background-color: #CF5C3F;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	border-radius-top-right: 5px;
+	-moz-border-radius-top-right: 5px;
+	-webkit-border-radius-top-right: 5px;
+	border-radius-bottom-right: 5px;
+	-moz-border-radius-bottom-right: 5px;
+	-webkit-border-radius-bottom-right: 5px;
+    cursor:pointer;
+    
+}
+.navbar{
+    background-color: #2D425D;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar label{
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.navbar ul li :hover{
+    /* padding: px; */
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 37px;
+    /* margin-top: 80px; */
+}
+.content p {
+    margin: auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.btn-find button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-find   button:hover{
+    background-color:rgb(0, 0, 0) ;
+    border: none;
+}
+
